@@ -1,19 +1,28 @@
 # Notes App
 
-Aplicación de notas completa con Next.js, PGLite (Postgres embebido) y Tailwind CSS.
+A simple notes application built with Next.js, Tailwind CSS v4, and PGLite for local persistence.
 
-## Características
-- Crear notas con título y contenido
-- Listar todas las notas
-- Editar notas existentes
-- Eliminar notas
-- Persistencia con PGLite (archivo local)
+## Features
+- Create, edit, and delete notes
+- Search notes by title or content
+- Data persisted locally via PGLite (Postgres embedded)
 
-## Desarrollo
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-La app estará disponible en `/notes-app`.
+## Build
+
+```bash
+npm run build
+npm start
+```
+
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS v4 (with @tailwindcss/postcss)
+- PGLite for embedded Postgres storage
